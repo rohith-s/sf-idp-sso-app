@@ -1,11 +1,10 @@
 {
   "name": "sf-idp-sso-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Test app to simulate SSO with SAML with Salesforce as Identity Provider",
   "author": {
-    "name": "Enrico Murru",
-    "email": "enrico.murru@gmail.com",
-    "url": "http://enree.co"
+    "name": "Rohith",
+    "email": "rohith.s@congruentglobal.com"
   },
   "keywords": [
     "saml",
@@ -21,11 +20,11 @@
   },
   "dependencies": {
     "express": "3.1.0",
-    "ejs": "*",
+    "ejs": "2.5.7",
     "foreman": "*",
     "passport": "*",
-    "passport-saml": "*",
-    "bower":"*"
+    "passport-saml": "0.15.0",
+    "bower": "*"
   },
   "engines": {
     "node": ">= 0.10.0"
